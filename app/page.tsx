@@ -4,8 +4,8 @@ import BitwarsHeading from "@/components/bitwarsHeading";
 import Calender from "@/components/calender";
 import Location from "@/components/location";
 import Card from "@/components/card";
-
-
+import BarsVertical from "@/components/bars-vertical";
+import BarsHorizontal from "@/components/bars-horizontal";
 //height-7038
 //width-4973
 
@@ -58,14 +58,18 @@ export default function Home() {
           <div className="font-space-mono font-bold text-[1.9vw] tracking-[-0.01em]">
             SOLUTION SPROUTING
           </div>
-          <div className="font-space-mono font-bold text-[1.9vw] tracking-[-0.01em]">
+          <div className="font-space-mono font-bold text-[1.9vw] tracking-[-0.01em] text-right">
             IDEATE
+            <div className="w-[20vw] h-[3vw] -translate-y-[1.3vw]">
+              <BarsHorizontal />
+              </div>
           </div>
         </div>
 
         <div className="grid grid-cols-2 mt-[4%]">
-          <div className="relative col-span-1">
-            <Card />
+          <div className="relative col-span-1 flex">
+           <div className=" w-[60%]">
+             <Card />
             <div className="mt-[3.2%] ml-[2%] font-space-mono font-bold text-[1.5vw] tracking-[-0.01em] text-[#D2F65A]">
               Student Coordinator
             </div>
@@ -93,9 +97,15 @@ export default function Home() {
                 Dr Uma Devi S     <br /> 
               </div>
             </div>
+           </div>
+           <div className="relative w-[10%]">
+              <BarsVertical />
+           </div>
           </div>
           <div className="col-span-1 border">
+            <div className="mt-[6.3%]">
 
+            </div>
           </div>
         </div>
       </div>
