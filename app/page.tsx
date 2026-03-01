@@ -3,10 +3,15 @@ import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen flex justify-center bg-black text-white font-mono">
-      <Navbar />
+    <div className="min-h-screen w-screen bg-[#151415] text-white">
       <div>
-        
+        <Image 
+          src="/background.svg" 
+          alt="Blueprint background"
+          fill
+          className="object-cover"
+          priority
+        />
       </div>
     </div>
   );
