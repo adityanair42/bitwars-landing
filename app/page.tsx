@@ -3,8 +3,8 @@ import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-screen bg-[#151415] text-white">
-      <div>
+    <div className="relative aspect-4973/7038 w-full bg-[#151415] text-white">
+      <div className="absolute inset-0 z-0">
         <Image 
           src="/background.svg" 
           alt="Blueprint background"
