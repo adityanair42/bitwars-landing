@@ -20,8 +20,8 @@ export default function PrizeSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/5">
           {tiers.map((tier, i) => (
-            <Reveal key={tier.place} delay={i * 100}>
-              <div className={`p-10 flex flex-col gap-3 ${
+            <Reveal key={tier.place} delay={i * 100} className="h-full">
+              <div className={`p-10 flex flex-col gap-3 h-full ${
                 i === 0 ? "bg-[#1a1f10]" : "bg-[#0f0f0f]"
               }`}>
                 <span className={`font-space-mono text-xs tracking-widest ${
