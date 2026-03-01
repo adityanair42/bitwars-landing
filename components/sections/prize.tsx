@@ -3,7 +3,7 @@ import Reveal from "@/components/reveal"
 const tiers = [
   { place: "1st", label: "Winner", amount: "₹20,000" },
   { place: "2nd", label: "Runner Up", amount: "₹12,000" },
-  { place: "3rd", label: "Second Runner Up", amount: "₹8,000" },
+  { place: "3rd", label: "Second Runner Up ", amount: "₹8,000" },
 ]
 
 export default function PrizeSection() {

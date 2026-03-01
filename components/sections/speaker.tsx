@@ -3,8 +3,7 @@ import Reveal from "@/components/reveal"
 
 export default function SpeakerSection() {
   return (
-    <section id="speaker" className="dot-bg bg-[#0e0e0e] py-28 px-8 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-96 h-96 bg-[#D2F65A]/3 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+    <section id="speaker" className="bg-[#0e0e0e] py-28 px-8">
       <div className="max-w-5xl mx-auto">
         <Reveal>
           <p className="font-space-mono text-xs text-[#D2F65A] tracking-[0.3em] mb-4 uppercase">Keynote</p>
